@@ -1,0 +1,42 @@
+{
+  "name": "is-truthy-ts",
+  "version": "1.0.0",
+  "description": "A type predicate for truthy values",
+  "type": "module",
+  "source": "index.ts",
+  "main": "./lib/is-truthy.cjs",
+  "exports": {
+    "require": "./lib/is-truthy.cjs",
+    "default": "./lib/is-truthy.modern.js"
+  },
+  "module": "./lib/is-truthy.module.js",
+  "unpkg": "./lib/is-truthy.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "prepare": "npm run build",
+    "pretest": "tsc --noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/everdimension/is-truthy-ts.git"
+  },
+  "keywords": [
+    "filter",
+    "typescript",
+    "type",
+    "guard",
+    "truthy",
+    "is-present"
+  ],
+  "author": "everdimension",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/everdimension/is-truthy-ts/issues"
+  },
+  "homepage": "https://github.com/everdimension/is-truthy-ts#readme",
+  "devDependencies": {
+    "microbundle": "^0.15.0",
+    "typescript": "^4.6.4"
+  }
+}
