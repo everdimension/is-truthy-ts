@@ -11,6 +11,7 @@
   },
   "module": "./lib/is-truthy.module.js",
   "unpkg": "./lib/is-truthy.umd.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
     "build": "microbundle",
     "prepare": "npm run build",
@@ -29,7 +30,7 @@
     "truthy",
     "is-present"
   ],
-  "author": "everdimension",
+  "author": "everdimension <everdimension@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/everdimension/is-truthy-ts/issues"
