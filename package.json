@@ -1,6 +1,6 @@
 {
   "name": "is-truthy-ts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A type predicate for truthy values",
   "type": "module",
   "source": "index.ts",
