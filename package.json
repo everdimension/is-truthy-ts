@@ -6,6 +6,7 @@
   "source": "index.ts",
   "main": "./lib/is-truthy.cjs",
   "exports": {
+    "types": "./lib/index.d.ts",
     "require": "./lib/is-truthy.cjs",
     "default": "./lib/is-truthy.modern.js"
   },
